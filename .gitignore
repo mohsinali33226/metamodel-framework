@@ -1,0 +1,36 @@
+# Large project data
+data/raw/
+data/outputs/
+
+# Saved models and binary files
+*.pkl
+*.joblib
+*.h5
+*.keras
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Conda and environment folders
+autogluon_env/
+
+# VS Code local settings
+.vscode/
+
+# Local path and backup files
+paths_local.yaml
+*.bak
+*.tmp
+
+# Logs
+*.log
+
+# Operating-system files
+.DS_Store
+Thumbs.db

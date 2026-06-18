@@ -1,0 +1,23 @@
+﻿l_effective:
+  dir: data/outputs/l_effective
+  dataset: data/outputs/l_effective/dataset.csv
+  x_inputs: data/outputs/l_effective/X_inputs.csv
+  y_outputs: data/outputs/l_effective/Y_outputs.csv
+  x_train: data/outputs/l_effective/X_train.csv
+  x_val: data/outputs/l_effective/X_val.csv
+  x_test: data/outputs/l_effective/X_test.csv
+  y_train: data/outputs/l_effective/Y_train.csv
+  y_val: data/outputs/l_effective/Y_val.csv
+  y_test: data/outputs/l_effective/Y_test.csv
+  registry: data/outputs/l_effective/model_registry.csv
+  models_dir: data/outputs/l_effective/models
+  pred_test: data/outputs/l_effective/pred_test.csv
+  pred_test_metrics: data/outputs/l_effective/pred_test_metrics.csv
+  uq_coverage: data/outputs/l_effective/uq_coverage.csv
+  uq_predictions_gp: data/outputs/l_effective/uq_predictions_gp.csv
+  uq_readme: data/outputs/l_effective/uq_readme.txt
+
+spectrum:
+  dir: data/outputs/spectrum
+  dataset: data/outputs/spectrum/dataset.csv
+  band_rms_all_files: data/outputs/spectrum/band_rms_all_files.csv 
